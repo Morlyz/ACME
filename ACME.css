@@ -1,0 +1,328 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:-moz-flex;
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+    background-color: rgb(20 32 50);
+    color: rgb(255 255 255);
+    align-items: center;
+    border-bottom: 3px solid crimson;
+}
+header{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: crimson;
+}
+.nav ul li{
+    display:inline;
+    padding: 0px 25px;
+}
+.nav ul li:first-child{
+    padding-left: 0px;
+}
+.nav ul li:last-child{
+    padding-right: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font: 13px Arial, Helvetica, sans-serif;
+    transition-property: font 1s;
+
+}
+a:hover{
+    text-decoration: none;
+    color: crimson;
+    font-size: 10px;
+}
+@media (max-width:625px) {
+    .container{
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:-moz-flex;
+        display:flex;
+        flex-direction: column;
+        padding:20px;
+        
+    }
+    .nav ul li{
+        padding: 0px 5px;
+    }
+    header{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    a{
+        font: 11px Arial, Helvetica, sans-serif;
+    }
+    a:hover{
+        font-size: 10px;
+    }   
+}
+.container2{
+    background-image:url("images/Investment-Trends_800x450.jpg") ;
+    background-repeat: no reapeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+#showcase{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 80% auto;
+    color: white;
+}
+#main{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px 0px 20px 0px;
+}
+#p1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+@media(max-width:625px) {
+    #main{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 100px 10px 20px 10px;
+    }
+    #p1{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 20px;
+    }
+}
+.newsletter{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:-moz-flex;
+    display:flex;
+    justify-content: space-between;
+    padding:30px 50px 30px 50px;
+    background-color: rgb(20 32 50);
+    color: rgb(255 255 255);
+    align-items: center;
+}
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+input{
+    font-size: 18px;
+    width:70%;
+}
+input::placeholder{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:5px;
+}
+button{
+    background-color: crimson;
+    font-size: 19px;
+    border: 0px;
+    border-radius:2px;
+}
+button a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+}
+@media (max-width:625px) {
+    .newsletter{
+        display:flex;
+        flex-direction: column;
+        padding:30px;
+        text-align: center;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    input{
+        width:50%;
+    }
+}
+
+.container4{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.box{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+@media (max-width:625px) {
+    .container4{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+}
+footer{
+    background-color: rgb(20 32 50);
+    color: rgb(255 255 255);
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bye{
+    padding: 50px;
+}
+/*about*/
+.container5{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+.box2{
+    width:70%;
+    padding: 30px;
+}
+.what{
+    width:30%;
+    height:100%;
+    margin:30px;
+    background-color: rgb(20 32 50);
+    color:white;
+}
+.art1{
+    padding: 30px 0px;
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.art2{
+    padding: 30px 0px;
+    background-color: rgb(20 32 50);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lorem{
+    padding:20px;
+    line-height: 1.6;
+}
+/*services*/
+.services{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#sect{
+    width:70%;
+
+}
+.mainart{
+    background-color: rgb(206, 233, 233);
+    margin-bottom: 5px;
+    border: 1px solid rgb(188, 201, 201)
+}
+.quote{
+    background-color: rgb(20 32 50);
+    color: white;
+    width: 30%;
+    height: 100%;
+    margin: 20px;
+    padding:20px;
+}
+.quote input{
+    width:70%;
+    font:20px;
+}
+.quote textarea{
+    width:70%;
+}
+.quote input{
+    font:18px Arial,Helvetica, sans-serif;
+}
+.quote input::placeholder{
+    font:15px Arial,Helvetica, sans-serif;
+    padding:5px;
+}
+.quote textarea::placeholder{
+    font:15px Arial,Helvetica, sans-serif;
+    padding:5px;
+}
+@media(max-width:625px) {
+    .services{
+        flex-direction:column;
+        width: 100%;
+        align-items:center;
+        padding: 0;
+        margin: 0; 
+        overflow: hidden;
+    }
+    .quote input{
+        width:100%;
+        font:15px;
+        padding:15px;
+        margin-bottom: 5px;
+    }
+    .quote textarea{
+        width:100%;
+        padding: 15px;
+        margin-bottom: 10px ;
+    }
+    .quote form{
+        margin-right:15px ;
+        margin-left:15px ;
+    }
+    .quote{
+        background-color: rgb(20 32 50);
+        color: white;
+        width: 100%;
+        margin: 20px 0 0;
+        padding:20px;
+
+    }
+    #sect{
+        width:100%;
+    
+    }
+    #btn{
+        font-size: 30px;
+        width: 100%;
+        border: 0px;
+        border-radius:2px;
+        margin-left: 20px;
+    }
+}
+
+
